@@ -4,12 +4,14 @@ import './pages/css/index.css';
 import App from './pages/App';
 // import reportWebVitals from './reportWebVitals';
 import Test from './pages/test';
+import ProfileCard from './pages/profileCard';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
 const router = createBrowserRouter([
   {path:"/", element: <App />},
-  {path:"/test", element: <Test />}
+  {path:"/test", element: <Test />},
+  {path:"/profileCard", element: <ProfileCard />},
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

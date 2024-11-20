@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "../pages/css/Card.css"
 const Question = ({title, info})=>{
     const [showInfo, setShowInfo] = useState(false);
     return(

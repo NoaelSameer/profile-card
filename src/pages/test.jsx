@@ -16,7 +16,7 @@ function Test(){
 
     return(
     <>
-    <Button count={count} onClick={handleClick}/>
+    {/* <Button count={count} onClick={handleClick}/>
     <Button count={count} onClick={handleClick}/>
         <h1>knoll smeer</h1>
         <p>Hello, my aspirations are becoming Oliver Andrew Kuopus's brother in law.</p>
@@ -24,10 +24,10 @@ function Test(){
         <Topics title="Murders only happen in the building" info={info}/>
         {/* <button><PiAcorn size="500px" style={{backgroundColor:"yellow"}}/></button> */}
 
-        {
+        {/* {
             triggered.length > 0 ? <h1>Hello Data</h1>: <h1>Nothing Found</h1>
-        }
-        <Button />
+        } */}
+        {/* <Button /> */}
         
     </>
     )

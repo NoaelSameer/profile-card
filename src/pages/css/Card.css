@@ -1,0 +1,46 @@
+.card {
+    max-width: 25vw;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px darkgray;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    margin-top: 5vh;
+  }
+  
+  .card img {
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid white;
+  }
+  
+  .card h2 {
+    margin: 15px 0 5px;
+    font-size: 2vw;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 1.25vw;
+    color: gray;
+    margin-bottom: 2vh;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 1.25vw;
+    margin: 3vh;
+  }
+  
+  .links a {
+    font-size: 1.5em;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .links a:hover {
+    color: blue;
+    transform: scale(1.2);
+  }
+  
